@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronica - Your Local Electrical Retailer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: rgb(0, 0, 0);
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 200px;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .product h2 {
+            margin: 0;
+            font-size: 22px;
+            color: #0073e6;
+        }
+        .product p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        .product .price {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #0073e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #0073e6;
+            color: white;
+        }
+        footer {
+            background-color: #0073e6;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin: 10px 0 5px;
+        }
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Electronica</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="mobile.html">Mobile Phones</a></li>
+                    <li><a href="computers.html">Computers</a></li>
+                    <li><a href="repairs.html">Repairs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!-- Computers Page -->
+<div class="container" id="computers">
+    <h1>Computers</h1>
+    <div class="product">
+        <img src="Mac.png" alt="">
+        <div>
+            <h2>Apple MacBook Pro</h2>
+            <p>The new MacBook Pro delivers game-changing performance for pro users. With the powerful M1 chip, it's never been easier to push the limits of what's possible.</p>
+            <p class="price">$1,699.00</p>
+            <a href="https://www.apple.com/macbook-pro/">Buy Now</a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="Alienware.Png" alt="">
+        <div>
+            <h2>Alienware Computer</h2>
+            <p>Experience the ultimate gaming with Alienware's high-performance computers. Featuring powerful processors and cutting-edge graphics for an immersive gaming experience.</p>
+            <p class="price">$3,399.00</p>
+            <a href="https://www.tekshop.co.uk/desktop-pcs/nvidia-pcs/nvidia-rtx-30-series-pcs/dell-alienware-r14-desktop-gaming-pc-i9-12900kf-32gb-1tb-rtx-3080ti?msclkid=7f12172e79df184edba47160061cb5df&utm_source=bing&utm_medium=cpc&utm_campaign=Smart%20Shopping%20Campaing&utm_term=4587025081917590&utm_content=Ad%20group%20%231">Buy Now</a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="SGB.Png" alt="">
+        <div>
+            <h2>Samsung Galaxy Book 4</h2>
+            <p>Work and play on the go with the sleek and lightweight Samsung Galaxy Book 4. Its long-lasting battery ensures you stay productive all day.</p>
+            <p class="price">£749.00</p>
+            <a href="https://www.currys.co.uk/products/samsung-galaxy-book4-15.6-laptop-intel-core-5-512-gb-ssd-grey-10260053.html?istCompanyId=bec25c7e-cbcd-460d-81d5-a25372d2e3d7&istFeedId=4d7eb93e-055f-499d-8ee5-1cdcc50d67d1&istItemId=mwpqlaxta&istBid=t&srcid=198&cmpid=ppc~gg~1011+(Shopping+Ads)+Laptops+-+Brand+Samsung-G1073350312~1011+(PLA)+Windows+Laptops+And+Convertibles+ad+group~Exact~71700000034639047~&mctag=gg_goog_7904&kwid=MICROSOFT&device=c&ds_kids=92700059115208049&tgtid=1011+(Shopping+Ads)+Laptops+-+Brand+Samsung-G1073350312&&msclkid=041e477f661a1378967621311952f330&utm_source=bing&utm_medium=cpc&utm_campaign=1011%20(Shopping%20Ads)%20Laptops%20-%20Brand%20Samsung-G1073350312&utm_term=4578641338299695&utm_content=1011%20(PLA)%20Windows%20Laptops%20And%20Convertibles%20ad%20group&gclid=041e477f661a1378967621311952f330&gclsrc=3p.ds">Buy Now</a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="Asus.Png" alt="">
+        <div>
+            <h2>Asus Vivobook 15</h2>
+            <p>The Asus Vivobook 15 is a stylish and versatile laptop, perfect for daily computing needs. Enjoy vibrant visuals with its NanoEdge display.</p>
+            <p class="price">£649.00</p>
+            <a href="https://www.currys.co.uk/products/asus-vivobook-s-15-s5504va-15.6-laptop-intel-core-i5-512-gb-ssd-blue-10251618.html?istCompanyId=bec25c7e-cbcd-460d-81d5-a25372d2e3d7&istFeedId=4d7eb93e-055f-499d-8ee5-1cdcc50d67d1&istItemId=lxliqplxw&istBid=t&srcid=198&cmpid=ppc~gg~1011+(Shopping+Ads)+Laptops+-+Brand+Asus-G1073350294~1011+(PLA)+Windows+Laptops+And+Convertibles+ad+group~Exact~71700000034639035~&mctag=gg_goog_7904&kwid=MICROSOFT&device=c&ds_kids=92700057371245500&tgtid=1011+(Shopping+Ads)+Laptops+-+Brand+Asus-G1073350294&gclid=1061dc3677d01a489b85ba7809a6a449&gclsrc=3p.ds&&msclkid=1061dc3677d01a489b85ba7809a6a449&utm_source=bing&utm_medium=cpc&utm_campaign=1011%20(Shopping%20Ads)%20Laptops%20-%20Brand%20Asus-G1073350294&utm_term=4578160299269751&utm_content=1011%20(PLA)%20Windows%20Laptops%20And%20Convertibles%20ad%20group">Buy Now</a>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2024 Electronica. All rights reserved.</p>
+</footer>
+</body>
+</html>

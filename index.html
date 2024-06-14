@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronica - Your Local Electrical Retailer</title>
+    <style>
+         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: rgb(0, 0, 0);
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 200px;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .product h2 {
+            margin: 0;
+            font-size: 22px;
+            color: #0073e6;
+        }
+        .product p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        .product .price {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #0073e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #0073e6;
+            color: white;
+        }
+        footer {
+            background-color: #0073e6;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin: 10px 0 5px;
+        }
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Electronica</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="mobile.html">Mobile Phones</a></li>
+                    <li><a href="computers.html">Computers</a></li>
+                    <li><a href="repairs.html">Repairs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+ 
+    <div class="container" id="home">
+        <h1>Welcome to Electronica</h1>
+        <p>Welcome to Electronica, your local retailer for the best in electronic appliances. We offer a wide range of products including mobile phones, laptops, computers, and more. Browse our product range and find the perfect gear for your needs.</p>
+        
+        <h2>Featured Products</h2>
+        <div class="product">
+
+            <div>
+                <h2>Iphone</h2>
+                
+            
+                <img src="ip15.png" alt="">
+                <p>The latest iPhone 15 offers state-of-the-art technology with an enhanced camera system, longer battery life, and a stunning display.</p>
+                <p class="price">£799.00</p>
+                <a href="https://www.apple.com/uk/iphone-15/">Buy Now</a>
+            </div>
+        </div>
+        <div class="product">
+            
+            <div>
+                <h2>Apple MacBook Pro</h2>
+
+                <img src="Mac.png" alt="">
+                <p>The new MacBook Pro delivers game-changing performance for pro users. With the powerful M3 Pro chip, it's never been easier to push the limits of what's possible.</p>
+                <p class="price">£1,699.00</p>
+                <a href="https://www.apple.com/uk/macbook-pro/">Buy Now</a>
+            </div>
+        </div>
+    </div>
+     <footer>
+        <p>&copy; 2024 Electronica. All rights reserved.</p>
+    </footer>
+</body>
+</html>
